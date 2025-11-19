@@ -55,13 +55,18 @@ PROCESSED_BBL_MARKER = "% L2M_PROCESSED_BBL_V1_DO_NOT_EDIT_MANUALLY_BELOW_THIS_L
 MAX_PANDOC_COMMENT_RETRIES = 10 # Max attempts to fix by commenting within a single strategy
 
 class LatexToMarkdownConverter:
-    def __init__(self, folder_path_str, verbose=True, template_path=None,
+    def __init__(self, folder_path_str, quiet_level=0, max_workers=1, template_path=None,
                  openalex_email="your-email@example.com", openalex_api_key = None, elsevier_api_key=None, springer_api_key=None, semantic_scholar_api_key=None,
-                 poppler_path=None, output_debug_tex=False, log_project_name=None): # Added log_project_name
+                 poppler_path=None, output_debug_tex=False, log_project_name=None, ): # Added log_project_name
         self.folder_path = Path(folder_path_str).resolve()
         self.main_tex_path = None
         self.original_main_tex_content = ""
-        self.verbose = verbose
+        self.quiet_level = quiet_level
+        if self.quiet_level == 0:
+            self.verbose = True
+        else:
+            self.verbose = False
+        self.max_workers = max_workers
         self.template_path = template_path
         self.final_output_folder_path = None # Will be set in convert_to_markdown
         self.openalex_email = openalex_email
@@ -100,6 +105,8 @@ class LatexToMarkdownConverter:
             self._log("Springer API key not provided. Abstract fetching from link.springer.com via API will be disabled.", "info")
 
     def _log(self, message, level="info"):
+        if self.quiet_level >=2: return
+        
         prefix_str = f"[{self.log_project_name}] " if self.log_project_name else ""
         if level == "error": print(f"{prefix_str}[-] Error: {message}", file=sys.stderr)
         elif level == "warn": print(f"{prefix_str}[!] Warning: {message}", file=sys.stderr)
@@ -766,6 +773,7 @@ class LatexToMarkdownConverter:
         if not title_str: return ""
         cleaned = title_str
         cleaned = re.sub(r'\\(?:emph|textbf|textit|texttt|textsc|mathrm|mathsf|mathcal|mathbf|bm)\s*\{(.*?)\}', r'\1', cleaned)
+        cleaned = re.sub(r'(?:emph|textbf|textit|texttt|textsc|mathrm|mathsf|mathcal|mathbf|bm)\s*\{(.*?)\}', r'\1', cleaned)
         cleaned = cleaned.replace(r"\'e", "e").replace(r'\"u', 'ue').replace(r'\`a', 'a')
         cleaned = re.sub(r'\{([A-Za-z\d\-:]+)\}', r'\1', cleaned) # For things like {CNNs}
         cleaned = re.sub(r'\\url\{[^\}]+\}', '', cleaned); cleaned = re.sub(r'\\href\{[^\}]+\}\{[^\}]+\}', '', cleaned)
@@ -881,8 +889,8 @@ class LatexToMarkdownConverter:
                                 if html_abs: self._log("S2 (via HTML parse): Abstract found.", "success"); time.sleep(0.3); return html_abs
                     self._log(f"S2(A{attempt}): Found papers for '{cleaned_title}' but no abstract (or via fallback URLs).", "debug"); return None
             except Exception as e: self._log(f"S2(A{attempt}): API error for '{cleaned_title}': {e}", "warn")
-            if self.semantic_scholar_api_key: time.sleep(3) # Rate limit for keyed access, depends on num_workers
-            else: time.sleep(0.3) # Polite delay
+            # Time to sleep
+            time.sleep(0.5*self.max_workers)
         return None
 
     def _extract_bibitem_components(self, bibitem_text_chunk: str) -> dict:
@@ -2110,7 +2118,7 @@ class LatexToMarkdownConverter:
                 tmp_tex_path_obj = Path(tmp_f.name)
 
             # Command uses relative paths for input/output, cwd will handle context
-            cmd = ["pandoc", tmp_tex_path_obj.name, "-f", "latex", "-t", "gfm-tex_math_dollars", "--verbose", "--wrap=none", "-o", pandoc_local_out_basename]
+            cmd = ["pandoc", tmp_tex_path_obj.name, "-f", "latex", "-t", "markdown_mmd-tex_math_dollars", "--verbose", "--wrap=none", "-o", pandoc_local_out_basename]
             if self.template_path and Path(self.template_path).exists():
                 cmd.extend(["--template", str(self.template_path)]) # Template path should be absolute or resolvable by Pandoc from cwd
             else:
@@ -2326,7 +2334,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Converts LaTeX to Markdown with advanced abstract fetching and table processing.")
     parser.add_argument("project_folder", help="Path to LaTeX project folder.")
     parser.add_argument("-o", "--output_folder", default=None, help="Output folder. Default: '[project_name]_output'.")
-    parser.add_argument("-q", "--quiet", action="store_false", dest="verbose", default=True, help="Suppress info messages.")
+    parser.add_argument("-q", "--quiet", action="count", default=0, help="Suppress info messages.")
     parser.add_argument("--template", default="template.md", help="Pandoc Markdown template. Default: 'template.md'.")
     parser.add_argument("--openalex-email", default=os.environ.get("OPENALEX_EMAIL", "your-email@example.com"), help="Your email for OpenAlex API. Can also be set via OPENALEX_EMAIL environment variable.")
     parser.add_argument("--openalex-api-key", default=os.environ.get("OPENALEX_API_KEY"), help="Your OpenAlex API key. Can also be set via OPENALEX_API_KEY environment variable.")
@@ -2361,7 +2369,7 @@ if __name__ == '__main__':
 
     converter = LatexToMarkdownConverter(
         str(project_path),
-        verbose=args.verbose,
+        quiet_level=args.quiet,
         template_path=final_template_path_str,
         openalex_email=args.openalex_email,
         openalex_api_key=args.openalex_api_key,
