@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "Abstract lacks clarity in articulating the significance of the proposed benchmark compared to existing ones.",
+    "The claims regarding the performance of LLMs in tool selection are overstated; results indicate more nuanced performance variations.",
+    "The limitations of the dataset ToolE are not sufficiently discussed, particularly regarding potential biases in user queries.",
+    "The empirical analysis section lacks detailed statistical methods used for evaluating LLM performance, making it difficult to assess rigor."
+  ],
+  "strengths": [
+    "The introduction of the ToolE dataset is a significant contribution, addressing the need for diverse and realistic user queries.",
+    "The paper provides a comprehensive framework for evaluating tool usage awareness and selection capabilities in LLMs.",
+    "The error analysis offers valuable insights into the performance gaps of LLMs, guiding future research directions.",
+    "The structure of the paper is logical, with clear delineation of tasks and subtasks, aiding reader comprehension."
+  ],
+  "score": 6
+}

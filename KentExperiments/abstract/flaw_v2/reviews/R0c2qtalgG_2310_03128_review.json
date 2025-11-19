@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the paper's contributions, particularly in its reference to CRISPR-Cas9, which is unrelated to the main topic.",
+    "Claims regarding the effectiveness of the proposed benchmark are overstated, lacking sufficient empirical support to validate its superiority over existing benchmarks.",
+    "The limitations of the study, particularly regarding the generalizability of the findings across different LLMs and tool types, are not adequately addressed.",
+    "The methodology for generating the ToolE dataset lacks clarity, particularly in how overlapping tool functionalities were resolved."
+  ],
+  "strengths": [
+    "The introduction of the MetaTool benchmark fills a notable gap in evaluating LLMs' tool usage capabilities, which is a relevant and timely contribution.",
+    "The paper provides a comprehensive overview of the challenges faced by LLMs in tool selection and usage, supported by empirical analysis.",
+    "The detailed description of the ToolE dataset generation process demonstrates a rigorous approach to data collection and validation."
+  ],
+  "score": 5
+}

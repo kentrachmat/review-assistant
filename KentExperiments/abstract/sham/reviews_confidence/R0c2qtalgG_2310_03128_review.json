@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "Abstract claims that most models struggle with tool selection but does not specify which models or provide comparative metrics.",
+    "The novelty of the ToolE dataset is not clearly differentiated from existing datasets, leading to potential overclaiming.",
+    "The error analysis section lacks detailed examples or specific metrics to substantiate claims of improvement potential."
+  ],
+  "strengths": [
+    "The paper introduces a comprehensive benchmark, MetaTool, which fills a significant gap in evaluating LLMs' tool usage capabilities.",
+    "The methodology for dataset generation and task formulation is well-structured and addresses previous limitations in tool usage assessments.",
+    "The empirical analysis provides valuable insights into the performance of various LLMs, highlighting their current limitations and areas for improvement."
+  ],
+  "score": 2,
+  "confidence": 4
+}

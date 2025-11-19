@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract claims significant performance improvements without adequately detailing the baseline performance metrics for comparison.",
+    "The paper does not sufficiently address the limitations of Step-Back Prompting in scenarios where abstraction may not be beneficial.",
+    "The evaluation metrics used for performance assessment are not clearly defined, leading to potential ambiguity in interpreting results."
+  ],
+  "strengths": [
+    "The introduction of Step-Back Prompting presents a novel approach to enhancing reasoning in LLMs through abstraction.",
+    "Empirical results demonstrate substantial performance gains across multiple challenging benchmarks, supporting the efficacy of the proposed method.",
+    "The paper provides a comprehensive error analysis that identifies specific areas of improvement for LLMs, contributing to future research directions."
+  ],
+  "score": 7
+}

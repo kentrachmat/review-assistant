@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The experimental results lack a comprehensive comparison with more recent state-of-the-art methods beyond the selected baselines.",
+    "The metrics used for evaluating toxicity reduction are not clearly defined, making it difficult to interpret the significance of the results.",
+    "The theoretical framework presented does not sufficiently justify the choice of the weighting functions used in model arithmetic, leading to potential ambiguity in their application."
+  ],
+  "strengths": [
+    "The introduction of model arithmetic provides a novel and intuitive framework for controlled text generation, enhancing flexibility in model composition.",
+    "The extension of speculative sampling to model arithmetic significantly improves inference efficiency, which is a practical contribution.",
+    "The paper presents a thorough empirical evaluation demonstrating the effectiveness of model arithmetic in reducing toxicity, showcasing its potential real-world applications."
+  ],
+  "score": 2,
+  "confidence": 4
+}

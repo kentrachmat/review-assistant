@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of the claims regarding the improvement in perplexity without sufficient empirical evidence.",
+    "The paper does not adequately address the potential limitations of the proposed method in terms of computational efficiency during sampling.",
+    "The discussion on the forward and reverse KL divergence lacks depth in explaining the implications of choosing one over the other in practical applications."
+  ],
+  "strengths": [
+    "The proposed framework, Daemon, presents a novel approach to decoding that directly aligns with human text metrics.",
+    "The paper provides a rigorous theoretical foundation for the optimization problem, including proofs of key propositions.",
+    "Empirical results demonstrate the superiority of Daemon over strong baselines across multiple metrics, indicating its practical effectiveness."
+  ],
+  "score": 7
+}

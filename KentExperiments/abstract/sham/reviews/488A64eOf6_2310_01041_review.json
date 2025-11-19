@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract claims a 'guarantee' of lower perplexity on human text without sufficient empirical evidence to support this assertion.",
+    "The paper does not adequately address potential limitations of the proposed method, such as computational efficiency in real-time applications.",
+    "The evaluation metrics used in experiments could benefit from a more comprehensive justification of their selection and relevance to human text characteristics."
+  ],
+  "strengths": [
+    "The formulation of decoding as an optimization problem is a novel and significant contribution to the field.",
+    "The theoretical guarantees provided for the proposed method enhance its credibility and rigor.",
+    "Empirical results demonstrate substantial improvements over strong baselines, indicating the effectiveness of the proposed approach."
+  ],
+  "score": 7
+}

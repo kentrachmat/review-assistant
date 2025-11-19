@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the contributions, focusing on mathematical foundations rather than the main theme of safety alignment in LLMs.",
+    "The paper does not adequately address the limitations of the proposed methods, particularly in terms of generalizability to other models or languages.",
+    "There is insufficient empirical support for the claims regarding the effectiveness of the proposed frameworks, particularly in diverse real-world scenarios.",
+    "The paper lacks a thorough discussion of ethical implications and potential misuse of the findings, which is critical given the nature of the research."
+  ],
+  "strengths": [
+    "The paper presents a novel framework, CipherChat, that explores the interaction of LLMs with non-natural languages, contributing to the understanding of LLM vulnerabilities.",
+    "The experimental results demonstrate a clear and concerning trend regarding the safety risks associated with powerful LLMs, which is significant for ongoing safety research.",
+    "The introduction of SelfCipher as a method to elicit unsafe responses from LLMs is an original contribution that highlights the need for improved safety measures."
+  ],
+  "score": 6
+}

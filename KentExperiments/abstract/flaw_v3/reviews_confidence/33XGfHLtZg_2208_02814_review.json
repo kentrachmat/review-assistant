@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract claims 'provably universal validity' without sufficient theoretical justification or specific conditions under which this holds.",
+    "The experimental results lack a comprehensive comparison with existing methods, making it difficult to assess the claimed superiority of U-CRC.",
+    "Key assumptions regarding the monotonicity of loss functions are not sufficiently highlighted, which could mislead readers about the applicability of the proposed method."
+  ],
+  "strengths": [
+    "The introduction of U-CRC presents a significant advancement in conformal prediction, extending its applicability to various loss functions.",
+    "The theoretical framework is well-structured, providing a solid foundation for the proposed method and its guarantees.",
+    "Empirical results across diverse applications demonstrate the practical effectiveness of U-CRC in controlling risks, supporting its utility in real-world scenarios."
+  ],
+  "score": 2,
+  "confidence": 4
+}

@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately represents the contributions by focusing on neural ODEs rather than the main topic of safety alignment in LLMs with ciphers.",
+    "Claims regarding the effectiveness of the proposed methods lack sufficient empirical support in the abstract, particularly the generalizability of results across different models and languages.",
+    "The abstract does not adequately acknowledge limitations, such as the potential for overfitting to specific ciphers or the implications of bypassing safety measures."
+  ],
+  "strengths": [
+    "The paper introduces a novel framework, CipherChat, which systematically addresses the safety alignment of LLMs with non-natural languages.",
+    "The exploration of LLMs' capabilities in understanding ciphers is original and highlights a significant gap in current safety alignment research.",
+    "The empirical results provide compelling evidence that certain ciphers can bypass safety mechanisms, raising important questions for future research."
+  ],
+  "score": 6
+}

@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract claims to extend conformal prediction, but the connection to Step-Back Prompting is not clearly established.",
+    "The scope described in the abstract does not align with the specific focus on Step-Back Prompting and its empirical evaluation.",
+    "The novelty of Step-Back Prompting is not sufficiently differentiated from existing methods like Chain-of-Thought prompting."
+  ],
+  "strengths": [
+    "The paper presents a clear and innovative approach to enhancing reasoning in LLMs through abstraction.",
+    "Empirical results demonstrate significant performance improvements across various challenging tasks, providing strong support for the proposed method.",
+    "The qualitative evaluation and error analysis offer valuable insights into the effectiveness and limitations of Step-Back Prompting."
+  ],
+  "score": 2,
+  "confidence": 4
+}

@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract makes overly broad claims about the universality and completeness of the theory without sufficient nuance regarding its applicability to specific architectures.",
+    "While numerical experiments are presented, they lack a clear comparison to existing methods, making it difficult to assess the claimed improvements.",
+    "The paper does not adequately address potential limitations or assumptions underlying the proposed theory, particularly regarding initialization and activation functions."
+  ],
+  "strengths": [
+    "The paper presents a novel theoretical framework that connects deep residual networks with neural ODEs, providing valuable insights into implicit regularization.",
+    "The rigorous mathematical treatment and proofs enhance the clarity and credibility of the results.",
+    "Extensive numerical experiments support the theoretical claims, demonstrating the practical relevance of the findings."
+  ],
+  "score": 7
+}

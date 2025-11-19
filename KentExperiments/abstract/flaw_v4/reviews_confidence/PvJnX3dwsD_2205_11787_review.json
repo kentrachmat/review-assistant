@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract claims that quadratic models cannot be effective tools for analysis of neural networks, but this conclusion is not sufficiently supported by the empirical results presented.",
+    "The paper does not adequately address the limitations of the Neural Quadratic Models, particularly in terms of their applicability to more complex neural network architectures.",
+    "The experimental setup lacks a comparison with other existing models that also aim to capture non-linear dynamics, which would strengthen the claims of novelty."
+  ],
+  "strengths": [
+    "The paper provides a thorough theoretical analysis of the catapult dynamics in Neural Quadratic Models, contributing to the understanding of optimization in neural networks.",
+    "Empirical results demonstrate that Neural Quadratic Models exhibit similar generalization properties to neural networks, particularly in the catapult phase, which is a novel finding.",
+    "The paper effectively uses clear mathematical formulations to illustrate the dynamics of the models, enhancing the rigor of the analysis."
+  ],
+  "score": 2,
+  "confidence": 4
+}

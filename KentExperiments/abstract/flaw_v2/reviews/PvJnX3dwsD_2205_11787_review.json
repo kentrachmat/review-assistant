@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the contributions of the paper, focusing on CRISPR-Cas9 rather than the main topic of catapult dynamics in neural networks.",
+    "The claims regarding the novelty of quadratic models in understanding neural network dynamics are overstated, as similar concepts have been explored in prior works.",
+    "The paper does not sufficiently address the limitations of quadratic models compared to other existing frameworks, which may mislead readers about their applicability.",
+    "The experimental results lack a comprehensive comparison with baseline models, making it difficult to assess the true performance gains of the proposed methods."
+  ],
+  "strengths": [
+    "The paper presents a novel perspective on the training dynamics of neural networks using quadratic models, which is a fresh approach in the field.",
+    "The theoretical analysis of catapult dynamics is well-articulated and provides valuable insights into the behavior of neural networks under large learning rates.",
+    "Empirical results support the theoretical findings, demonstrating the effectiveness of quadratic models in capturing non-linear dynamics."
+  ],
+  "score": 6
+}

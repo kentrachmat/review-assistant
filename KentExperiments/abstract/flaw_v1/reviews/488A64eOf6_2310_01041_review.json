@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the significance of the proposed method compared to existing decoding strategies.",
+    "The paper lacks a thorough discussion of the limitations of the proposed method, particularly in terms of computational efficiency and scalability.",
+    "Some experimental results are not sufficiently detailed, making it difficult to assess the robustness of the findings across different contexts."
+  ],
+  "strengths": [
+    "The proposed Daemon framework presents a novel approach to decoding that directly optimizes for multiple evaluation metrics, addressing known issues in existing methods.",
+    "The paper provides a solid theoretical foundation for the method, including proofs of convergence and improvement in perplexity.",
+    "Empirical results demonstrate that Daemon outperforms several strong baselines in both automatic and human evaluations, indicating its practical effectiveness."
+  ],
+  "score": 7
+}

@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the novelty of the proposed extensions over existing conformal prediction methods.",
+    "The paper lacks a comprehensive comparison with existing methods, which would strengthen the claims of improved performance.",
+    "Some theoretical results are presented without sufficient context or motivation, making them harder to appreciate.",
+    "The examples provided are limited in diversity and do not cover a wide range of applications, which could limit the generalizability of the findings."
+  ],
+  "strengths": [
+    "The proposed conformal risk control method extends the applicability of conformal prediction to a broader class of loss functions.",
+    "The theoretical guarantees provided are rigorous and contribute to the understanding of risk control in machine learning.",
+    "Empirical results demonstrate the effectiveness of the method in practical applications, showcasing its potential impact."
+  ],
+  "score": 7
+}

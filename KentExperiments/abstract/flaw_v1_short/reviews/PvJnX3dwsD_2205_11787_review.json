@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the specific contributions of the proposed Neural Quadratic Model (NQM) in relation to existing models.",
+    "Claims regarding the performance improvements of NQMs are not sufficiently supported by detailed experimental results in the abstract.",
+    "The limitations of the proposed model and its applicability to different neural network architectures are not acknowledged in the abstract."
+  ],
+  "strengths": [
+    "The paper presents a novel approach by analyzing the catapult dynamics of neural networks through quadratic models, which adds a new perspective to the understanding of optimization in neural networks.",
+    "The theoretical framework is well-developed, providing a clear mathematical basis for the claims made about the dynamics of NQMs.",
+    "Empirical results demonstrate the effectiveness of NQMs across various architectures and datasets, supporting the theoretical findings."
+  ],
+  "score": 7
+}

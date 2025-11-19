@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not accurately reflect the focus on deep residual networks and their implicit regularization towards neural ODEs.",
+    "The paper lacks a clear discussion on the limitations of the proposed methods and assumptions made during the analysis.",
+    "The experimental section could benefit from additional baselines to better contextualize the results."
+  ],
+  "strengths": [
+    "The theoretical contributions provide a solid framework for understanding the connection between deep residual networks and neural ODEs.",
+    "The use of numerical experiments effectively illustrates the theoretical findings and supports the claims made in the paper.",
+    "The paper is well-structured and presents complex ideas in a clear and accessible manner."
+  ],
+  "score": 7
+}

@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "Abstract claims theoretical generality unmatched in the literature without sufficient evidence.",
+    "The experimental setup lacks a comparison with other recent incremental certification methods.",
+    "The paper does not adequately address the limitations of the IRS method in scenarios with high perturbation levels."
+  ],
+  "strengths": [
+    "Introduces a novel framework for incremental randomized smoothing certification that significantly reduces certification time.",
+    "Extensive empirical evaluation demonstrates substantial speedups over traditional methods, providing strong practical implications.",
+    "The paper clearly articulates the underlying theory and insights that support the proposed method."
+  ],
+  "score": 7
+}

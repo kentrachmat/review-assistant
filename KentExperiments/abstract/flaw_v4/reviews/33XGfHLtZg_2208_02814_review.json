@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the proposed method, particularly regarding non-monotone loss functions.",
+    "The paper lacks a comprehensive comparison with existing methods, which could better contextualize the contributions.",
+    "Some theoretical results, such as the factor of 2 in the lower bound, are stated as open questions without sufficient exploration in the main text."
+  ],
+  "strengths": [
+    "The paper presents a novel extension of conformal prediction that broadens its applicability to various loss functions.",
+    "The theoretical guarantees provided for the proposed method are rigorous and well-founded.",
+    "Empirical results across multiple domains demonstrate the practical effectiveness of the proposed algorithm."
+  ],
+  "score": 7
+}

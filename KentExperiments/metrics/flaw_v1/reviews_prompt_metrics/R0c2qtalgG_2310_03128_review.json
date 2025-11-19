@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "Experimental results lack clarity in presentation, making it difficult to interpret findings.",
+    "The analysis of tool selection performance does not adequately address the variability in results across different models.",
+    "Key baselines for comparison are missing, particularly in the context of multi-tool selection tasks.",
+    "The error analysis is superficial and does not provide deep insights into the underlying causes of model failures."
+  ],
+  "strengths": [
+    "The introduction of the ToolE dataset is a significant contribution, providing a comprehensive resource for evaluating tool usage in LLMs.",
+    "The paper effectively identifies and categorizes the challenges faced by LLMs in tool selection, contributing to the understanding of their limitations.",
+    "The proposed tasks for evaluating tool usage awareness and selection are well-defined and relevant to current research in LLMs."
+  ],
+  "score": 2,
+  "confidence": 4
+}

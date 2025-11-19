@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "Abstract claims theoretical generality unmatched in robustness literature without sufficient comparative analysis.",
+    "Experimental results imply representativeness but lack a broader range of architectures and perturbation types.",
+    "The novelty of the proposed method is overstated as it builds on existing randomized smoothing techniques without clear differentiation."
+  ],
+  "strengths": [
+    "Introduces a novel incremental approach to randomized smoothing that significantly reduces certification time.",
+    "Demonstrates empirical speedups of up to 4.1x over traditional methods, showcasing practical applicability.",
+    "Provides a clear framework for reusing certification guarantees, which could facilitate future research in adversarial robustness."
+  ],
+  "score": 2,
+  "confidence": 4
+}

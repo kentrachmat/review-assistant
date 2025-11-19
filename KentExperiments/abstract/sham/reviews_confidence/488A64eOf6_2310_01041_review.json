@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the guarantee of lower perplexity on human text without sufficient empirical evidence.",
+    "The paper does not adequately address the limitations of the proposed method, particularly in terms of computational efficiency and scalability.",
+    "The evaluation metrics used may not fully capture the nuances of human-like text generation, leading to potential misinterpretations of results."
+  ],
+  "strengths": [
+    "The formulation of decoding as an optimization problem is a novel approach that could advance the field of language generation.",
+    "The empirical results demonstrate significant improvements over strong baselines in multiple aspects of text generation.",
+    "The paper provides a clear theoretical foundation for the proposed method, including proofs of key propositions."
+  ],
+  "score": 2,
+  "confidence": 4
+}

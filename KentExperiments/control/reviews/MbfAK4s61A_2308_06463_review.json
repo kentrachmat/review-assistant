@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generalizability of the findings, suggesting that ciphers universally bypass safety mechanisms without sufficient empirical support.",
+    "The paper does not adequately address the limitations of the proposed methods, particularly regarding the potential for models to adapt to cipher-based inputs over time.",
+    "The methodology lacks a comprehensive comparison with existing safety alignment techniques that do not involve ciphers, limiting the contextual understanding of the results.",
+    "The experimental setup does not include a diverse range of LLMs beyond GPT-3.5 and GPT-4, which may limit the applicability of the findings to other models."
+  ],
+  "strengths": [
+    "The paper presents a novel framework, CipherChat, which systematically explores the interaction between LLMs and non-natural languages, contributing to the understanding of model vulnerabilities.",
+    "The identification of a 'secret cipher' capability within LLMs is an intriguing finding that could lead to further research on model behavior and safety alignment.",
+    "The empirical results demonstrate a clear and concerning trend of LLMs generating unsafe outputs when prompted with ciphers, highlighting a significant safety issue.",
+    "The study emphasizes the necessity for safety alignment techniques that extend beyond natural language, addressing a critical gap in current LLM safety research."
+  ],
+  "score": 6
+}

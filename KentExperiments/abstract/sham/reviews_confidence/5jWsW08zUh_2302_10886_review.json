@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of the findings, particularly regarding the implications of the Double Descent phenomenon.",
+    "The paper lacks a thorough comparison with existing methods for estimating Lipschitz constants, which limits the context of its contributions.",
+    "The limitations of the empirical study, especially regarding the computational costs and the choice of datasets, are not sufficiently acknowledged."
+  ],
+  "strengths": [
+    "The paper provides a comprehensive empirical analysis of Lipschitz continuity across various neural network architectures and datasets.",
+    "It introduces novel insights into the relationship between Lipschitz constants and model behavior, particularly in the context of over-parameterization and Double Descent.",
+    "The methodology for estimating Lipschitz bounds is clearly articulated and demonstrates a thoughtful approach to addressing computational challenges."
+  ],
+  "score": 2,
+  "confidence": 4
+}

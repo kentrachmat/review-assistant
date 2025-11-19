@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the contributions, focusing on model arithmetic rather than the incremental randomized smoothing certification.",
+    "The paper does not sufficiently address the limitations of the IRS approach, particularly regarding its dependence on the quality of the original model's certification.",
+    "The empirical results lack a comprehensive comparison with other state-of-the-art certification methods beyond just the baseline, which limits the assessment of IRS's effectiveness."
+  ],
+  "strengths": [
+    "The introduction of the Incremental Randomized Smoothing (IRS) framework is a novel contribution that addresses a significant gap in the efficiency of DNN certification.",
+    "The paper provides a clear theoretical foundation for the IRS approach, supported by well-structured experiments demonstrating substantial speedups in certification time.",
+    "The extensive evaluation across different architectures and datasets showcases the robustness and applicability of the proposed method."
+  ],
+  "score": 6
+}

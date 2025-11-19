@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the significance of the Polyak-Łojasiewicz condition, which is central to the long-time convergence results.",
+    "Numerical experiments lack sufficient detail on the experimental setup, making it difficult to assess reproducibility and robustness of results.",
+    "The paper does not sufficiently address potential limitations of the proposed approach, particularly regarding the assumptions made about the activation functions."
+  ],
+  "strengths": [
+    "The paper provides a solid mathematical foundation linking deep residual networks to neural ODEs, enhancing theoretical understanding.",
+    "The results are rigorously proven, with clear implications for the implicit regularization properties of gradient descent in deep learning.",
+    "The numerical experiments effectively illustrate the theoretical findings, demonstrating convergence behavior in practical scenarios."
+  ],
+  "score": 3,
+  "confidence": 4
+}

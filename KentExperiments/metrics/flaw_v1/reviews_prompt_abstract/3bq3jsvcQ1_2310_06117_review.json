@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of the results, suggesting broad applicability without sufficient evidence.",
+    "The paper does not adequately address the limitations of Step-Back Prompting in simpler tasks where abstraction may not be necessary.",
+    "Some experimental results lack detailed comparisons with existing methods, making it difficult to assess the true impact of Step-Back Prompting."
+  ],
+  "strengths": [
+    "The introduction of Step-Back Prompting is a novel approach that leverages abstraction to enhance reasoning in LLMs.",
+    "Empirical results demonstrate significant performance improvements across various challenging tasks, providing strong support for the proposed method.",
+    "The paper includes thorough error analysis, which helps in understanding the strengths and weaknesses of the Step-Back Prompting approach."
+  ],
+  "score": 2,
+  "confidence": 4
+}

@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "The abstract misrepresents the contributions by discussing CRISPR-Cas9 instead of CipherChat.",
+    "Claims regarding the effectiveness of CipherChat are overstated; the results do not consistently demonstrate significant safety bypassing across all domains.",
+    "The novelty of the 'SelfCipher' approach is not adequately differentiated from existing methods that utilize role play or similar techniques.",
+    "Key assumptions about the generalizability of findings to other LLMs are not sufficiently supported by the experimental results."
+  ],
+  "strengths": [
+    "The paper addresses a critical issue in LLM safety by exploring the vulnerabilities of models to non-natural language prompts.",
+    "The experimental design is comprehensive, covering multiple languages and safety domains, which adds depth to the findings.",
+    "The discussion on the implications of LLMs having a 'secret cipher' is intriguing and opens avenues for future research."
+  ],
+  "score": 1,
+  "confidence": 4
+}

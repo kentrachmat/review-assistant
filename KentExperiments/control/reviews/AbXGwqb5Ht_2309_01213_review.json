@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the Polyak-Łojasiewicz condition, which may mislead readers about the generality of the results.",
+    "The experimental section lacks a comparison with other implicit regularization methods, which would strengthen the empirical support for the claims made.",
+    "Numerical experiments do not sufficiently explore the impact of different activation functions beyond the GELU, limiting the scope of the findings."
+  ],
+  "strengths": [
+    "The paper provides a solid mathematical foundation linking deep residual networks to neural ODEs, addressing a significant gap in the literature.",
+    "The proof of the implicit regularization effect is rigorous and well-structured, enhancing the theoretical contribution of the work.",
+    "Numerical experiments effectively illustrate the theoretical results, showcasing the practical implications of the findings."
+  ],
+  "score": 7
+}

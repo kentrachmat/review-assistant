@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract misrepresents the contributions by discussing neural networks and ODEs, which are not the focus of the paper.",
+    "Claims regarding the effectiveness of ciphers in bypassing safety measures are overstated and lack sufficient empirical support.",
+    "The novelty of the proposed frameworks 'CipherChat' and 'SelfCipher' is not clearly differentiated from existing work on LLM safety and ciphers."
+  ],
+  "strengths": [
+    "The paper addresses a critical issue of safety in LLMs when interacting with non-natural languages.",
+    "The experimental approach is comprehensive, covering multiple models and domains, which adds depth to the findings."
+  ],
+  "score": 1,
+  "confidence": 4
+}

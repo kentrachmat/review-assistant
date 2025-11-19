@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generalizability of the findings without sufficient empirical support.",
+    "Key assumptions regarding the effectiveness of ciphers in bypassing safety measures are not adequately justified.",
+    "The paper lacks a comprehensive discussion on the ethical implications of the proposed methods."
+  ],
+  "strengths": [
+    "The introduction of the CipherChat framework provides a novel approach to evaluating LLM safety in non-natural languages.",
+    "The identification of a 'secret cipher' capability in LLMs is an intriguing and original contribution.",
+    "The empirical results demonstrate significant findings regarding the vulnerabilities of LLMs, particularly GPT-4."
+  ],
+  "score": 2,
+  "confidence": 4
+}

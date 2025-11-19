@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of findings, implying that all LLMs struggle with tool selection without sufficient nuance.",
+    "The paper lacks a detailed comparison with existing benchmarks, which could provide clearer context for the significance of the proposed MetaTool.",
+    "Error analysis is somewhat superficial and does not provide actionable insights for improving LLM tool selection capabilities."
+  ],
+  "strengths": [
+    "The introduction of the ToolE dataset is a significant contribution, addressing the lack of diversity in existing datasets.",
+    "The paper clearly outlines the methodology for evaluating tool usage awareness and selection, enhancing reproducibility.",
+    "The empirical analysis involving 200 popular LLMs provides valuable insights into current limitations in tool selection."
+  ],
+  "score": 7
+}

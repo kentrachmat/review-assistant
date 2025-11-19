@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The experimental results lack clear comparisons with relevant baselines, which undermines the claims regarding the effectiveness of Neural Quadratic Models.",
+    "Some figures and tables are unclear, making it difficult to interpret the results and their implications.",
+    "The theoretical claims regarding the catapult phase are not sufficiently supported by empirical evidence across all tested models."
+  ],
+  "strengths": [
+    "The paper presents a novel approach by using Neural Quadratic Models to analyze the dynamics of neural networks, contributing to the understanding of training behaviors.",
+    "The theoretical framework is well-structured, providing a solid foundation for the analysis of optimization dynamics.",
+    "Empirical results demonstrate interesting parallels between Neural Quadratic Models and traditional neural networks, particularly in the catapult phase."
+  ],
+  "score": 2,
+  "confidence": 4
+}

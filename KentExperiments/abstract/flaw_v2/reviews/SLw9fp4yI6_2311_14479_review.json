@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the paper's focus on CRISPR-Cas9, which is unrelated to the main topic of controlled text generation.",
+    "The claims regarding the novelty of model arithmetic are not sufficiently supported by empirical results, particularly in comparison to existing methods.",
+    "The limitations of the model arithmetic approach are not adequately discussed, particularly regarding potential misuse or ethical concerns."
+  ],
+  "strengths": [
+    "The introduction of model arithmetic provides a novel framework for controlled text generation, enhancing expressiveness and control.",
+    "The extension of speculative sampling to model arithmetic is a significant contribution that addresses efficiency concerns in multi-model inference.",
+    "The paper includes a thorough evaluation demonstrating the effectiveness of model arithmetic in reducing toxicity and improving attribute control."
+  ],
+  "score": 6
+}

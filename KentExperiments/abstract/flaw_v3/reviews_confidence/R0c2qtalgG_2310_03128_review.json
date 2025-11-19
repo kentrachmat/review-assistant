@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the novelty of MetaTool as the first-ever benchmark for tool self-awareness without adequately addressing similar existing works.",
+    "Claims of profound deficiencies in current LLMs are not sufficiently supported by the experimental results, which may lead to misinterpretation of the findings.",
+    "The limitations of the ToolE dataset, such as potential biases in query generation and the representativeness of the scenarios, are not adequately discussed."
+  ],
+  "strengths": [
+    "The paper introduces a structured framework for evaluating tool usage awareness in LLMs, which is a relevant and timely topic in AI research.",
+    "The comprehensive error analysis provides valuable insights into the limitations of existing models and suggests actionable improvements for future tool design.",
+    "The methodology for generating the ToolE dataset is well-documented, showcasing a rigorous approach to data collection and validation."
+  ],
+  "score": 2,
+  "confidence": 4
+}

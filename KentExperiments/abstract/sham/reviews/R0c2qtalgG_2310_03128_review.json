@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "Abstract claims that most models struggle with tool selection but does not provide specific metrics or examples to support this assertion.",
+    "The paper lacks a thorough comparison with existing benchmarks, which could contextualize the contributions of MetaTool more effectively.",
+    "Error analysis is mentioned but not detailed enough to understand the specific challenges faced by the models.",
+    "The recommendations for tool developers are vague and lack actionable steps or examples."
+  ],
+  "strengths": [
+    "Introduces a novel benchmark, MetaTool, which fills a significant gap in evaluating LLMs' tool usage awareness.",
+    "The ToolE dataset is comprehensive, covering a wide range of user queries and scenarios, enhancing its applicability.",
+    "The paper provides a structured framework for evaluating tool selection tasks, which is a valuable contribution to the field."
+  ],
+  "score": 7
+}

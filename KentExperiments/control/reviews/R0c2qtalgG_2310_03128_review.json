@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "Abstract lacks clarity on the specific contributions of the ToolE dataset compared to existing datasets.",
+    "The paper does not sufficiently address the limitations of the proposed benchmark in real-world applications.",
+    "The experimental results do not provide a comprehensive comparison with existing benchmarks, limiting the context for the findings."
+  ],
+  "strengths": [
+    "The introduction of the MetaTool benchmark fills a significant gap in evaluating LLMs' tool usage capabilities.",
+    "The detailed error analysis provides valuable insights into the challenges faced by LLMs in tool selection.",
+    "The comprehensive dataset generation process for ToolE demonstrates a rigorous approach to addressing overlapping tool functionalities."
+  ],
+  "score": 7
+}

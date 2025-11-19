@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not accurately represent the paper's contributions, as it discusses CRISPR-Cas9 instead of deep residual networks and neural ODEs.",
+    "The claims regarding the convergence of trained networks to neural ODEs after training lack sufficient empirical support and clarity.",
+    "The paper does not sufficiently address the limitations of the proposed methods or the assumptions required for the theoretical results."
+  ],
+  "strengths": [
+    "The paper provides a rigorous theoretical framework connecting deep residual networks to neural ODEs, contributing to the understanding of implicit regularization.",
+    "The use of numerical experiments to illustrate theoretical findings adds empirical support to the claims made in the paper.",
+    "The exploration of the Polyak-Łojasiewicz condition in the context of deep learning is a significant contribution to the literature."
+  ],
+  "score": 5
+}

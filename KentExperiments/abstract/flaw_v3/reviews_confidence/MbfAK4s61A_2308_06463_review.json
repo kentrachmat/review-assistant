@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "The abstract overstates the novelty of CipherChat and SelfCipher without adequately comparing them to existing methods.",
+    "The paper lacks a thorough discussion of the ethical implications of enabling unsafe interactions with LLMs.",
+    "The experimental setup does not include a comprehensive range of baseline models for comparison, limiting the generalizability of the findings.",
+    "The claims regarding the 'secret cipher' within LLMs are not sufficiently substantiated with empirical evidence."
+  ],
+  "strengths": [
+    "The paper presents a novel framework, CipherChat, that explores the vulnerability of LLMs to cipher-based prompting.",
+    "The multi-lingual and cross-cipher safety stress tests provide valuable insights into the limitations of current safety alignment techniques.",
+    "The introduction of SelfCipher offers an interesting approach to leveraging LLMs' internal mechanisms for unsafe outputs."
+  ],
+  "score": 2,
+  "confidence": 4
+}

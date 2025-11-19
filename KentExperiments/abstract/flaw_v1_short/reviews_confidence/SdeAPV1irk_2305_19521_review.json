@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract misrepresents the contributions by focusing on model arithmetic, which is not the main topic of the paper.",
+    "Claims regarding the novelty of the Incremental Randomized Smoothing (IRS) framework are overstated, as similar incremental approaches exist in the literature.",
+    "The empirical evaluation lacks a comparison with other incremental certification methods, limiting the context for claimed speedups."
+  ],
+  "strengths": [
+    "The paper introduces a novel algorithm for incremental certification, which addresses a significant limitation in existing randomized smoothing techniques.",
+    "The evaluation demonstrates substantial speedups in certification, providing empirical support for the proposed method."
+  ],
+  "score": 2,
+  "confidence": 4
+}

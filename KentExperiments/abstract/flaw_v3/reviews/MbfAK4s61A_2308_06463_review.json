@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "The abstract overstates the novelty of CipherChat and SelfCipher without adequately addressing existing literature on adversarial attacks against LLMs.",
+    "The paper does not sufficiently explore the implications of the findings on the broader landscape of LLM safety, particularly regarding the ethical considerations of enabling unsafe interactions.",
+    "The experimental setup lacks a comprehensive comparison with other existing safety alignment techniques, limiting the contextual understanding of CipherChat's effectiveness.",
+    "The paper does not provide a detailed analysis of the limitations of the proposed methods, particularly regarding their applicability to different LLM architectures or languages."
+  ],
+  "strengths": [
+    "The introduction of CipherChat and SelfCipher presents a novel approach to exploring vulnerabilities in LLM safety through cipher-based interactions.",
+    "The empirical results demonstrate a significant and concerning trend regarding the safety of advanced models like GPT-4, highlighting an important area for future research.",
+    "The paper effectively utilizes a bilingual approach, examining the implications of cipher attacks in both English and Chinese, which adds depth to the findings.",
+    "The methodology is clearly articulated, allowing for reproducibility of the experiments and potential for further exploration by other researchers."
+  ],
+  "score": 6
+}

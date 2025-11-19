@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of IRS by not adequately addressing scenarios where the speedup may be less significant.",
+    "The paper does not provide sufficient theoretical justification for the choice of the threshold parameter gamma, which may affect the robustness of the certification.",
+    "The experimental results lack a comprehensive comparison with other state-of-the-art certification methods beyond just the baseline."
+  ],
+  "strengths": [
+    "The introduction of Incremental Randomized Smoothing (IRS) represents a significant advancement in the field of robustness certification for deep neural networks.",
+    "The empirical results demonstrate substantial speedups in certification time, providing strong evidence for the effectiveness of the proposed method.",
+    "The paper clearly articulates its contributions and provides a well-structured methodology for reusing certification guarantees."
+  ],
+  "score": 2,
+  "confidence": 4
+}

@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the significance of the Polyak-Łojasiewicz condition and its implications for convergence.",
+    "Numerical experiments lack a comprehensive comparison with existing methods to establish the claimed advantages.",
+    "The paper does not sufficiently address the limitations of the proposed approach, particularly regarding the initialization strategies."
+  ],
+  "strengths": [
+    "The theoretical framework linking deep residual networks and neural ODEs is well-developed and provides new insights.",
+    "The paper presents rigorous proofs for the convergence of residual networks to neural ODEs under specific conditions.",
+    "Numerical experiments support the theoretical claims and demonstrate the practical applicability of the results."
+  ],
+  "score": 7
+}

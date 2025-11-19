@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the proposed model arithmetic approach, particularly in terms of potential misuse for generating toxic content.",
+    "The experimental evaluation lacks a comprehensive comparison with a wider range of existing controlled text generation methods, which could provide a clearer context for the claimed improvements.",
+    "The paper does not sufficiently address the computational complexity of the proposed methods in practical applications, particularly regarding the trade-offs between speed and output quality."
+  ],
+  "strengths": [
+    "The introduction of model arithmetic as a principled framework for controlled text generation is a novel contribution that enhances the expressiveness of existing methods.",
+    "The extension of speculative sampling to model arithmetic effectively reduces computational overhead, showcasing a significant improvement in inference speed.",
+    "The empirical results demonstrate clear advantages in toxicity reduction and attribute control, providing strong support for the effectiveness of the proposed methods."
+  ],
+  "score": 7
+}

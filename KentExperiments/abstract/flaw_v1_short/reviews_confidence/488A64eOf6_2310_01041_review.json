@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the specific contributions of the Daemon framework compared to existing methods.",
+    "Claims regarding the theoretical guarantees of the optimization problem are not sufficiently supported by empirical results in the abstract.",
+    "The novelty of the Daemon framework is not adequately distinguished from prior work, leading to potential overclaiming.",
+    "The scope of the paper as described in the abstract does not fully align with the experimental results presented."
+  ],
+  "strengths": [
+    "The paper addresses significant issues in language model decoding, such as exposure bias and distribution mis-specifications.",
+    "The proposed Daemon framework offers a novel perspective by framing decoding as a direct optimization problem.",
+    "The empirical results demonstrate improvements in various aspects of text generation, providing valuable insights into the framework's effectiveness."
+  ],
+  "score": 2,
+  "confidence": 4
+}

@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "Abstract overstates the generality of findings, suggesting LLMs struggle universally without specifying conditions.",
+    "Lacks detailed discussion on the limitations of the ToolE dataset, particularly regarding potential biases in query generation.",
+    "Error analysis section is vague and does not provide specific examples of errors encountered during experiments."
+  ],
+  "strengths": [
+    "Introduces a novel benchmark, MetaTool, which fills a gap in evaluating LLMs' tool usage capabilities.",
+    "Comprehensive dataset ToolE with diverse queries enhances the evaluation of tool selection and usage.",
+    "Empirical analysis provides valuable insights into the performance of various LLMs, highlighting areas for improvement."
+  ],
+  "score": 2,
+  "confidence": 4
+}

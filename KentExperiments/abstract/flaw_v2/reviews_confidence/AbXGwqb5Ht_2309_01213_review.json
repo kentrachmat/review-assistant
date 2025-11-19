@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not accurately represent the paper's contributions, as it discusses CRISPR instead of deep residual networks and neural ODEs.",
+    "The claims regarding the convergence of neural ODEs after training are not sufficiently supported by empirical results, leading to potential overstatement of generality.",
+    "The novelty of the findings is undermined by a lack of clear differentiation from existing literature on neural ODEs and residual networks."
+  ],
+  "strengths": [
+    "The paper provides a rigorous mathematical framework for understanding the implicit regularization of deep residual networks.",
+    "The exploration of the connection between trained residual networks and neural ODEs is a significant contribution to the field.",
+    "Numerical experiments are included to illustrate theoretical findings, enhancing the practical relevance of the research."
+  ],
+  "score": 1,
+  "confidence": 4
+}

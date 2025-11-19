@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the specific contributions of the conformal risk control framework, leading to potential misinterpretation of its significance.",
+    "The claims regarding the generalization of conformal prediction to other loss functions are not sufficiently supported by empirical results in the abstract.",
+    "The abstract lacks acknowledgment of key assumptions, such as the requirement for the loss function to be non-increasing, which could mislead readers about the applicability of the results."
+  ],
+  "strengths": [
+    "The paper addresses a significant gap in the theoretical understanding of the relationship between discrete and continuous models in deep learning.",
+    "The proposed conformal risk control framework extends the applicability of conformal prediction to a broader range of loss functions, which is a notable advancement.",
+    "The use of numerical experiments to illustrate the results provides valuable empirical support for the theoretical claims made in the paper."
+  ],
+  "score": 2,
+  "confidence": 4
+}

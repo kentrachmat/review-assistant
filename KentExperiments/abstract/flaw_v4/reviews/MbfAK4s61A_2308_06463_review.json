@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generalizability of the findings, suggesting almost 100% success in bypassing safety alignment without sufficient context on the specific ciphers used.",
+    "The paper does not adequately address the ethical implications of the proposed methods, particularly in terms of potential misuse by malicious actors.",
+    "The experimental setup lacks a comprehensive comparison with existing safety alignment methods, limiting the contextual understanding of the effectiveness of CipherChat and SelfCipher."
+  ],
+  "strengths": [
+    "The introduction of the CipherChat framework is a novel approach to exploring the vulnerabilities of LLMs in relation to safety alignment.",
+    "The empirical results provide strong evidence of the effectiveness of ciphers in bypassing safety measures, highlighting a critical area of concern for LLM deployment.",
+    "The identification of a 'secret cipher' capability within LLMs adds an intriguing dimension to the understanding of model behavior and safety."
+  ],
+  "score": 6
+}

@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generalizability of the findings, suggesting a near-universal applicability of ciphers in bypassing safety measures without sufficient empirical evidence.",
+    "The paper does not adequately address the limitations of the proposed methods, particularly regarding the potential for misuse and the ethical implications of enabling unsafe interactions.",
+    "The experimental setup lacks a comprehensive comparison with existing safety alignment techniques, limiting the contextual understanding of the proposed methods' effectiveness."
+  ],
+  "strengths": [
+    "The introduction of the *CipherChat* framework provides a novel approach to exploring the vulnerabilities of LLMs in non-natural languages.",
+    "The empirical results demonstrate a significant finding regarding the safety alignment of GPT-4, highlighting the risks associated with advanced LLMs.",
+    "The identification of a 'secret cipher' capability within LLMs is an intriguing contribution that opens avenues for further research."
+  ],
+  "score": 2,
+  "confidence": 4
+}

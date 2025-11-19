@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The experimental results lack clarity in presenting the statistical significance of the comparisons made.",
+    "Some metrics used for evaluation are not clearly defined or justified in terms of their relevance to the claims made.",
+    "The paper does not sufficiently address the limitations of the proposed method compared to existing approaches."
+  ],
+  "strengths": [
+    "The theoretical framework provided for the optimization problem is well-structured and offers a novel approach to decoding.",
+    "Empirical results demonstrate the effectiveness of the proposed method across multiple metrics and datasets.",
+    "The use of human evaluation alongside automatic metrics provides a comprehensive assessment of the generated text quality."
+  ],
+  "score": 3,
+  "confidence": 4
+}

@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the contributions, focusing on CRISPR-Cas9 instead of the proposed IRS framework.",
+    "The paper does not sufficiently address the limitations of IRS, particularly regarding its dependency on the quality of the initial smoothed model.",
+    "The experimental setup lacks a comprehensive comparison with other incremental certification methods, limiting the contextual understanding of IRS's performance.",
+    "The claims of speedup in certification time are not backed by detailed statistical analysis or confidence intervals, making it difficult to assess their significance."
+  ],
+  "strengths": [
+    "The introduction of the Incremental Randomized Smoothing (IRS) framework is a novel contribution that addresses a significant gap in DNN certification methods.",
+    "The paper provides a clear and structured approach to reusing certification information, which could lead to practical applications in real-world scenarios.",
+    "Extensive empirical evaluations demonstrate the effectiveness of IRS across multiple datasets and architectures, showcasing its potential for improving certification efficiency."
+  ],
+  "score": 6
+}

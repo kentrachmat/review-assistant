@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "The abstract claims 'provably universal validity' without sufficient theoretical backing in the main text.",
+    "The paper does not provide a comprehensive comparison with existing methods, particularly in terms of computational efficiency.",
+    "Some claims about the performance improvements over classical methods lack detailed empirical evidence or specific metrics.",
+    "The discussion on limitations is minimal; more emphasis on potential drawbacks or scenarios where U-CRC may fail would strengthen the paper."
+  ],
+  "strengths": [
+    "The introduction of Universal Conformal Risk Control (U-CRC) represents a significant theoretical advancement in uncertainty quantification.",
+    "The framework is well-articulated and demonstrates a clear extension of conformal prediction to a wider range of loss functions.",
+    "Empirical results across diverse applications provide strong support for the proposed method's effectiveness.",
+    "The paper is well-structured, making complex concepts accessible to readers with varying levels of expertise."
+  ],
+  "score": 7
+}

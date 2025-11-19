@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generalizability of results, implying that all LLMs are equally vulnerable to cipher attacks without sufficient empirical evidence.",
+    "The paper lacks a thorough discussion on the limitations of the proposed methods, particularly regarding the applicability of ciphers in real-world scenarios.",
+    "The experimental setup does not adequately address potential biases in the selection of ciphers, which may skew the results."
+  ],
+  "strengths": [
+    "The introduction of the CipherChat framework is a novel approach to exploring LLM vulnerabilities, contributing to the discourse on AI safety.",
+    "The empirical results provide compelling evidence that certain ciphers can effectively bypass safety mechanisms in LLMs, highlighting a significant area of concern.",
+    "The paper effectively combines theoretical insights with practical experimentation, demonstrating a clear understanding of the implications of LLM capabilities."
+  ],
+  "score": 2,
+  "confidence": 4
+}

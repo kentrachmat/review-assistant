@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the significance of the Polyak-Łojasiewicz condition, which is central to the results.",
+    "Numerical experiments are mentioned but lack detailed descriptions of methodologies and comparisons to existing approaches.",
+    "The paper does not sufficiently address the limitations of the proposed method, particularly in scenarios with non-monotone loss functions."
+  ],
+  "strengths": [
+    "The paper presents a novel extension of conformal prediction that broadens its applicability to various loss functions.",
+    "The theoretical results are well-founded, providing rigorous guarantees for the proposed conformal risk control framework.",
+    "Empirical results demonstrate the effectiveness of the proposed method across multiple real-world tasks, showcasing its practical relevance."
+  ],
+  "score": 7
+}

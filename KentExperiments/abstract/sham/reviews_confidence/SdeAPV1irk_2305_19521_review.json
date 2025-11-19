@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the proposed IRS method, particularly regarding its dependence on the original model's certification cache.",
+    "The paper lacks a thorough comparison of IRS with existing incremental certification methods, which could provide context for its contributions.",
+    "The experimental results do not sufficiently address the variability in performance across different DNN architectures and approximation techniques."
+  ],
+  "strengths": [
+    "The introduction of the IRS method represents a significant advancement in the field of robustness certification for DNNs, particularly in its ability to reduce computational overhead.",
+    "The empirical results demonstrate a clear and substantial speedup in certification time, providing strong evidence for the effectiveness of the proposed approach.",
+    "The paper is well-structured and clearly presents the theoretical foundations of IRS, making it accessible for readers with varying levels of expertise."
+  ],
+  "score": 2,
+  "confidence": 4
+}

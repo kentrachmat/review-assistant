@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the proposed model arithmetic method, particularly in relation to the complexity of combining multiple attributes.",
+    "There is insufficient detail on the experimental setup, including the specific baselines used for comparison with prior CTG methods.",
+    "The claims regarding the efficiency of the generalized speculative sampling could benefit from more rigorous empirical validation to support the stated reductions in model calls."
+  ],
+  "strengths": [
+    "The introduction of model arithmetic provides a novel and intuitive framework for controlled text generation, addressing key challenges in the field.",
+    "The paper demonstrates a clear understanding of the limitations of existing CTG methods and proposes a compelling solution that enhances expressiveness and control.",
+    "The empirical results showing improvements in toxicity reduction and inference speedup are well-presented and support the claims made in the paper."
+  ],
+  "score": 7
+}

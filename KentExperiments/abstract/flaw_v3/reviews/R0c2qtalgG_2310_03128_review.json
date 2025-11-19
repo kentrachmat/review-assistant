@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the novelty of MetaTool, as similar benchmarks exist in the literature.",
+    "The paper lacks a comprehensive comparison with existing benchmarks, limiting the evaluation of MetaTool's effectiveness.",
+    "The error analysis section does not provide sufficient detail on the specific errors made by the LLMs, making it difficult to draw actionable insights.",
+    "The limitations of the ToolE dataset are not adequately discussed, particularly regarding potential biases in the generated queries."
+  ],
+  "strengths": [
+    "The introduction of ToolE as a large-scale, domain-agnostic dataset is a significant contribution to the field.",
+    "The paper presents a clear framework for evaluating tool usage awareness and selection capabilities in LLMs.",
+    "The empirical analysis provides valuable insights into the current limitations of state-of-the-art LLMs in tool reasoning."
+  ],
+  "score": 6
+}

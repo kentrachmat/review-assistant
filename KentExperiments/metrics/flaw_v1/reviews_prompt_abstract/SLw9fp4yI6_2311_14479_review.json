@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract claims that model arithmetic allows for more precise control than prior CTG techniques, but does not provide sufficient comparative evidence to support this assertion.",
+    "The paper does not adequately address potential limitations or assumptions of the model arithmetic framework, which may affect its applicability in diverse contexts.",
+    "While the empirical evaluation shows improvements in toxicity reduction, it lacks a comprehensive analysis of other potential attributes that could be controlled using model arithmetic."
+  ],
+  "strengths": [
+    "The introduction of model arithmetic as a novel framework for controlled text generation is a significant contribution to the field.",
+    "The extension of speculative sampling to model arithmetic provides a practical solution to the computational overhead associated with multi-model CTG.",
+    "The empirical evaluation demonstrates clear improvements in toxicity reduction compared to state-of-the-art methods, showcasing the effectiveness of the proposed approach."
+  ],
+  "score": 2,
+  "confidence": 4
+}

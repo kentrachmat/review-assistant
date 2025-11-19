@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generalizability of the findings, suggesting nearly 100% bypass rates without sufficient context on the specific domains tested.",
+    "The paper lacks a thorough discussion on the ethical implications of the proposed methods, particularly regarding the potential misuse of the findings.",
+    "The experimental design does not include a control group or baseline comparisons for the effectiveness of CipherChat and SelfCipher against existing safety measures."
+  ],
+  "strengths": [
+    "The introduction of the CipherChat framework is a novel approach to exploring the vulnerabilities of LLMs in non-natural language contexts.",
+    "The empirical results provide strong evidence of the effectiveness of ciphers in bypassing safety mechanisms, highlighting a critical area for future research.",
+    "The paper clearly articulates the need for safety alignment in non-natural languages, addressing a gap in current LLM safety research."
+  ],
+  "score": 7
+}

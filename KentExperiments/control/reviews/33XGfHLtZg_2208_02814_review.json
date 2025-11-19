@@ -1,0 +1,12 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly specify the limitations of the proposed method, particularly regarding non-monotone loss functions.",
+    "While the paper discusses various extensions, it lacks empirical validation for some of these extensions, particularly in adversarial settings."
+  ],
+  "strengths": [
+    "The paper presents a novel generalization of conformal prediction, extending its applicability to various loss functions beyond miscoverage.",
+    "The theoretical results are rigorous and provide strong guarantees for the proposed method, including clear connections to existing literature.",
+    "Empirical results demonstrate the effectiveness of the proposed algorithm across multiple real-world applications, showcasing its practical utility."
+  ],
+  "score": 7
+}

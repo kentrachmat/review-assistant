@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of the results, claiming universal applicability without sufficient evidence.",
+    "The paper does not adequately address the limitations of the proposed theory, particularly in relation to non-smooth activation functions.",
+    "Numerical experiments lack a comprehensive comparison with existing methods, limiting the assessment of the proposed approach's effectiveness."
+  ],
+  "strengths": [
+    "The theoretical framework presented is original and provides a significant contribution to understanding the connection between residual networks and neural ODEs.",
+    "The paper is well-structured, with clear definitions and rigorous proofs supporting the main claims.",
+    "Empirical results are extensive and demonstrate the theoretical findings, enhancing the paper's credibility."
+  ],
+  "score": 2,
+  "confidence": 4
+}

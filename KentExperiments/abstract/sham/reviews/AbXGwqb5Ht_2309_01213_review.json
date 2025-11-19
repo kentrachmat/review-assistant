@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not sufficiently clarify the implications of the Polyak–Łojasiewicz condition on the generality of the results.",
+    "The experimental section lacks a comprehensive comparison with existing methods to highlight the significance of the proposed approach.",
+    "Key assumptions regarding the initialization of weights are not explicitly stated in the abstract, which may mislead readers about the applicability of the results."
+  ],
+  "strengths": [
+    "The paper provides a rigorous theoretical framework connecting deep residual networks and neural ODEs, contributing to the understanding of implicit regularization.",
+    "The use of numerical experiments effectively illustrates the theoretical findings, demonstrating the practical relevance of the results.",
+    "The paper addresses an important gap in the literature regarding the training dynamics of residual networks, offering valuable insights for future research."
+  ],
+  "score": 7
+}

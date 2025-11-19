@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the Neural Quadratic Models in comparison to traditional neural networks.",
+    "The empirical results lack a comprehensive comparison with existing models beyond the stated neural networks, limiting the scope of the findings.",
+    "Some claims about the generalization performance of NQMs are not sufficiently supported by the experimental data presented."
+  ],
+  "strengths": [
+    "The paper introduces a novel perspective on the dynamics of neural networks through the lens of quadratic models, contributing to the understanding of the catapult phase.",
+    "The theoretical analysis is rigorous and well-structured, providing a solid foundation for the empirical findings.",
+    "The experiments demonstrate a clear correlation between the behavior of NQMs and traditional neural networks, highlighting the relevance of the proposed models."
+  ],
+  "score": 7
+}

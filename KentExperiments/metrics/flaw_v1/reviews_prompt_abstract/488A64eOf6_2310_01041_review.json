@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of the claims regarding the improvement in perplexity on human texts without sufficient empirical evidence.",
+    "The paper does not adequately address the limitations of the proposed method, particularly in terms of computational efficiency and scalability.",
+    "The experimental setup lacks a comprehensive comparison with more recent decoding methods beyond the selected baselines."
+  ],
+  "strengths": [
+    "The proposed framework, Daemon, presents a novel approach to aligning language model outputs with human text metrics, addressing a significant gap in current decoding methods.",
+    "The theoretical guarantees provided for the optimization problem enhance the rigor of the proposed method.",
+    "Empirical results demonstrate the effectiveness of Daemon across various metrics and domains, showing clear improvements over strong baselines."
+  ],
+  "score": 2,
+  "confidence": 4
+}

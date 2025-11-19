@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the contributions of the paper, focusing on CRISPR-Cas9 instead of the proposed Incremental Randomized Smoothing framework.",
+    "The claims regarding the novelty of IRS are overstated, as incremental approaches have been explored in other contexts without proper acknowledgment.",
+    "The limitations of the IRS framework are not sufficiently discussed, particularly regarding its performance with varying levels of noise and different architectures."
+  ],
+  "strengths": [
+    "The paper presents a novel framework for incremental certification that has the potential to significantly reduce computational costs in DNN robustness verification.",
+    "Empirical results demonstrate substantial speedups in certification times, providing strong evidence for the effectiveness of the proposed method.",
+    "The methodology is well-structured, and the insights into the disparity between approximated networks are valuable for future research."
+  ],
+  "score": 1,
+  "confidence": 4
+}

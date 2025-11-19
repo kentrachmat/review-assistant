@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract claims a guaranteed improvement in perplexity on human texts, but the evidence provided is primarily theoretical and lacks extensive empirical validation.",
+    "The paper does not sufficiently address the computational complexity of the proposed method compared to existing baselines, which may limit its practical applicability.",
+    "While the paper mentions the use of the Sampling-Importance-Resampling technique, it does not provide detailed comparisons with other sampling methods to justify its effectiveness."
+  ],
+  "strengths": [
+    "The paper presents a novel approach to decoding that explicitly aligns generated texts with human texts across multiple metrics, addressing a significant gap in current language model applications.",
+    "It provides a rigorous theoretical framework that connects decoding with direct metrics optimization, which is a fresh perspective in the field.",
+    "The empirical results demonstrate that the proposed method outperforms strong baselines in various aspects, showcasing its potential for practical applications."
+  ],
+  "score": 7
+}

@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract claims broad applicability of the method without sufficient empirical evidence across diverse domains.",
+    "The paper does not adequately address the potential limitations of the conformal risk control method in non-monotone loss scenarios.",
+    "The examples provided, while illustrative, lack a systematic comparison with existing methods to highlight the advantages of the proposed approach."
+  ],
+  "strengths": [
+    "The paper presents a novel generalization of conformal prediction that extends its applicability to a wider range of loss functions.",
+    "The theoretical guarantees provided are rigorous and well-founded, offering a solid basis for the proposed method.",
+    "The empirical results demonstrate the effectiveness of the method in practical applications, particularly in computer vision and natural language processing."
+  ],
+  "score": 7
+}

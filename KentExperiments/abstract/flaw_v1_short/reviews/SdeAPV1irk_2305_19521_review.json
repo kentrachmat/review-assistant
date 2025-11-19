@@ -1,0 +1,11 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the proposed IRS framework, particularly in terms of its applicability to different types of neural networks.",
+    "Claims regarding the speedup of up to 4.1x need to be supported with detailed comparisons to specific baseline methods in the empirical evaluation section."
+  ],
+  "strengths": [
+    "The introduction of the Incremental Randomized Smoothing (IRS) framework represents a significant advancement in the efficiency of robustness certification for deep neural networks.",
+    "The paper provides a clear and structured explanation of the algorithm, supported by empirical results demonstrating its effectiveness."
+  ],
+  "score": 7
+}

@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract makes overly broad claims about the universal applicability of Model Arithmetic without sufficient empirical evidence to support such generality.",
+    "The paper does not adequately address potential limitations or assumptions underlying the Model Arithmetic framework, which could mislead readers regarding its applicability.",
+    "The experimental evaluation lacks a comprehensive comparison with a wider range of existing CTG methods, limiting the contextual understanding of Model Arithmetic's performance."
+  ],
+  "strengths": [
+    "The introduction of Model Arithmetic presents a novel mathematical formalism that allows for fine-grained control over language generation attributes.",
+    "The paper provides a clear and structured explanation of how Model Arithmetic integrates with existing techniques, enhancing its practical relevance.",
+    "Empirical results demonstrate significant improvements in toxicity reduction and efficiency, showcasing the framework's potential impact on controlled text generation."
+  ],
+  "score": 2,
+  "confidence": 4
+}

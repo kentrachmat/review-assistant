@@ -1,0 +1,15 @@
+{
+  "weaknesses": [
+    "Experimental results lack clarity in presenting the success rates across different ciphers and models, making it difficult to interpret the findings.",
+    "The paper does not adequately address the limitations of the proposed methods, particularly regarding the potential for misuse of the findings.",
+    "Key baselines for comparison with other safety alignment techniques are missing, which undermines the robustness of the conclusions drawn.",
+    "The analysis of the 'SelfCipher' approach lacks sufficient empirical validation to support the claims of its effectiveness over traditional ciphers."
+  ],
+  "strengths": [
+    "The paper introduces a novel framework, 'CipherChat', which provides a fresh perspective on the safety vulnerabilities of LLMs.",
+    "The study effectively highlights the risks associated with LLMs' understanding of non-natural languages, emphasizing the need for improved safety alignment.",
+    "Empirical results demonstrate significant findings regarding the unsafety rates of LLMs when interacting through ciphers, contributing valuable insights to the field."
+  ],
+  "score": 2,
+  "confidence": 4
+}

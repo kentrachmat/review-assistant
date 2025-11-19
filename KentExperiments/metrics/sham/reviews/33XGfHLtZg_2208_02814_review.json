@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly specify the limitations of the proposed method, particularly regarding its applicability to non-monotone loss functions.",
+    "The paper lacks a thorough comparison with existing methods in terms of performance metrics, which would strengthen the claims of novelty and effectiveness.",
+    "The examples provided in the paper could benefit from more detailed explanations of the experimental setup and the choice of parameters."
+  ],
+  "strengths": [
+    "The proposed conformal risk control framework extends existing conformal prediction methods, providing a significant contribution to the field.",
+    "The theoretical guarantees provided for the algorithm are well-articulated and supported by rigorous proofs.",
+    "The empirical results demonstrate the algorithm's effectiveness across various applications, showcasing its versatility."
+  ],
+  "score": 3,
+  "confidence": 4
+}

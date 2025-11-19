@@ -1,0 +1,16 @@
+{
+  "weaknesses": [
+    "The abstract makes overly broad claims about the superiority of Neural Quadratic Models (NQMs) without sufficient empirical backing.",
+    "The experimental setup lacks a comprehensive comparison with existing models beyond just NQMs and linear models, limiting the contextual understanding of performance.",
+    "Key assumptions regarding the generalizability of results across different architectures and tasks are not adequately justified.",
+    "The paper does not sufficiently address the limitations of NQMs or the conditions under which they may fail to outperform traditional models."
+  ],
+  "strengths": [
+    "The introduction of Neural Quadratic Models (NQMs) provides a novel perspective on understanding neural network dynamics, particularly in the context of large learning rates.",
+    "The theoretical analysis of the catapult phase is well-articulated, offering significant insights into optimization dynamics that are not captured by linear models.",
+    "The empirical results demonstrate a clear correlation between the theoretical predictions and the observed behaviors of NQMs, supporting the proposed framework.",
+    "The paper effectively highlights the limitations of existing linear approximations, thereby establishing a strong case for the relevance of NQMs in future AI research."
+  ],
+  "score": 2,
+  "confidence": 4
+}

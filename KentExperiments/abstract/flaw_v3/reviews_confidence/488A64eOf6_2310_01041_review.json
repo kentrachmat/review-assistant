@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the claims of achieving 'mathematically guaranteed dominance over human text perplexity', which lacks sufficient empirical backing.",
+    "The novelty of the proposed method is not clearly differentiated from existing approaches like Contrastive Decoding and Contrastive Search, leading to potential confusion about its contributions.",
+    "The paper does not adequately address the limitations of the proposed method, particularly in terms of scalability and practical deployment challenges."
+  ],
+  "strengths": [
+    "The introduction of Universal HyperAlignment Decoding (UHD) presents a compelling framework for aligning language model outputs with human expectations across multiple metrics.",
+    "The empirical results demonstrate significant improvements over strong baselines in various text generation tasks, supporting the effectiveness of the proposed method.",
+    "The paper provides a thorough theoretical foundation for the proposed approach, including detailed derivations and proofs."
+  ],
+  "score": 2,
+  "confidence": 4
+}

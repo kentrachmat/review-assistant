@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generalizability of the findings, implying that all safety mechanisms are ineffective against ciphers without sufficient evidence.",
+    "The paper does not adequately address the limitations of the CipherChat framework, particularly in terms of its applicability to various languages and ciphers beyond those tested.",
+    "The experimental setup lacks a comprehensive comparison with existing safety alignment methods to contextualize the effectiveness of CipherChat and SelfCipher."
+  ],
+  "strengths": [
+    "The introduction of the CipherChat framework is a novel approach to exploring LLM safety vulnerabilities, providing a fresh perspective on the limitations of current safety measures.",
+    "The empirical results demonstrate a significant and concerning ability of LLMs to bypass safety mechanisms using ciphers, highlighting an important area for future research.",
+    "The paper effectively combines theoretical insights with practical experiments, making a compelling case for the need to rethink safety alignment in LLMs."
+  ],
+  "score": 2,
+  "confidence": 4
+}

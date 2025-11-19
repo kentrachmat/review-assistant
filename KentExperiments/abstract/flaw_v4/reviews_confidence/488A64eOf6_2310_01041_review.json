@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of the claims regarding the improvement in perplexity without sufficient empirical evidence.",
+    "The paper lacks a detailed comparison with existing methods in terms of computational efficiency and runtime, which is crucial for practical applications.",
+    "The limitations of the proposed method, especially regarding its scalability with larger models or datasets, are not adequately discussed."
+  ],
+  "strengths": [
+    "The proposed framework, Daemon, presents a novel approach to decoding that aligns generated texts with human-like metrics, addressing known issues in existing methods.",
+    "The theoretical guarantees provided for the optimization problem enhance the rigor of the claims made in the paper.",
+    "Empirical results demonstrate significant improvements in multiple aspects of text generation, validated through both automatic metrics and human evaluations."
+  ],
+  "score": 3,
+  "confidence": 4
+}

@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The experimental results lack a comprehensive comparison with existing methods, limiting the evaluation of the proposed algorithm's effectiveness.",
+    "Some figures are unclear and do not provide sufficient context or explanation, making it difficult to interpret the results.",
+    "The paper does not adequately address the implications of the factor of 2 in the lower bound, leaving a gap in understanding its significance."
+  ],
+  "strengths": [
+    "The paper presents a novel extension of conformal prediction that broadens its applicability to various loss functions.",
+    "The theoretical foundations are well-established, with clear proofs supporting the main claims.",
+    "Empirical examples demonstrate the practical utility of the proposed method across different domains, validating its effectiveness."
+  ],
+  "score": 2,
+  "confidence": 4
+}

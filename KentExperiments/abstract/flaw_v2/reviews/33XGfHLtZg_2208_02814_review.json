@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the contributions by mentioning CRISPR-Cas9, which is unrelated to the main topic of conformal risk control.",
+    "The paper does not sufficiently address the limitations of the proposed method, particularly in non-monotone loss scenarios.",
+    "The empirical evaluations lack a comprehensive comparison with existing methods, which limits the assessment of the proposed algorithm's effectiveness."
+  ],
+  "strengths": [
+    "The paper presents a novel extension of conformal prediction that provides guarantees for a broader class of loss functions.",
+    "The theoretical framework is well-developed, with clear definitions and proofs supporting the main claims.",
+    "The examples provided demonstrate the practical applicability of the proposed method across various domains."
+  ],
+  "score": 6
+}

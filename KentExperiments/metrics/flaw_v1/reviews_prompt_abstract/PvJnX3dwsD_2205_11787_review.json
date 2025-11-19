@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the study, particularly regarding the generalizability of the findings to more complex neural network architectures.",
+    "The empirical results lack a comprehensive comparison with existing models beyond the linear and quadratic frameworks, which may overstate the novelty of the proposed approach.",
+    "The assumptions made regarding the behavior of the quadratic models under different learning rates are not sufficiently justified, which could lead to misinterpretation of the results."
+  ],
+  "strengths": [
+    "The paper presents a novel approach by utilizing Neural Quadratic Models to analyze the catapult dynamics in neural networks, filling a gap in existing literature.",
+    "The theoretical analysis is rigorous, providing a solid foundation for understanding the optimization dynamics of neural networks in the catapult phase.",
+    "Empirical results demonstrate that the proposed models effectively capture the generalization properties of neural networks, supporting the theoretical claims made."
+  ],
+  "score": 2,
+  "confidence": 4
+}

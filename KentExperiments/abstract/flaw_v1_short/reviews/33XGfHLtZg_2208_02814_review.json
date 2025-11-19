@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the proposed conformal risk control method, particularly in cases where the risk is non-monotone.",
+    "Numerical experiments are mentioned but lack detail on their design and how they validate the theoretical claims.",
+    "The paper does not sufficiently compare the proposed method with existing approaches in terms of performance metrics."
+  ],
+  "strengths": [
+    "The paper establishes a solid mathematical foundation connecting discrete and continuous models in deep learning.",
+    "The introduction of conformal risk control extends the applicability of conformal prediction to a broader range of loss functions, which is a significant contribution.",
+    "The algorithm is well-defined and theoretically grounded, providing clear guarantees on risk control."
+  ],
+  "score": 7
+}

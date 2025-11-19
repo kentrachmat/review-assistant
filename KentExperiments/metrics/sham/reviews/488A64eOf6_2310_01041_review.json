@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the generality of the claims regarding the improvement in perplexity on human texts without sufficient empirical backing.",
+    "The paper does not adequately address the limitations of the proposed method, particularly in terms of computational efficiency and scalability in real-world applications.",
+    "The experimental setup lacks a comprehensive comparison with state-of-the-art methods beyond the selected baselines, limiting the contextual understanding of the results."
+  ],
+  "strengths": [
+    "The proposed framework, Daemon, presents a novel approach to decoding as direct metrics optimization, which is a significant contribution to the field.",
+    "The theoretical guarantees provided for the optimization problem enhance the rigor of the work and offer valuable insights into the relationship between the decoding distribution and human text alignment.",
+    "Empirical results demonstrate the effectiveness of Daemon across various metrics and domains, showcasing its potential for practical applications in text generation."
+  ],
+  "score": 2,
+  "confidence": 4
+}

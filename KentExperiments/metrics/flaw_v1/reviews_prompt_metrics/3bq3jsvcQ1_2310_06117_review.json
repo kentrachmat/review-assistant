@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The experimental design lacks a comprehensive comparison with other prompting techniques beyond Chain-of-Thought and Take-a-Deep-Breath, limiting the understanding of Step-Back Prompting's relative effectiveness.",
+    "Some of the reported results, particularly in the error analysis sections, lack sufficient detail on how errors were categorized and quantified, which may affect the reliability of the conclusions drawn.",
+    "The paper does not adequately address potential limitations of Step-Back Prompting in scenarios where abstraction may not be beneficial, which could mislead readers about its applicability."
+  ],
+  "strengths": [
+    "The introduction of Step-Back Prompting is a novel approach that effectively leverages abstraction to enhance reasoning capabilities in large language models.",
+    "Empirical results demonstrate significant performance improvements across a variety of challenging tasks, providing strong evidence for the effectiveness of the proposed method.",
+    "The paper includes thorough error analysis and qualitative evaluations, offering valuable insights into the strengths and weaknesses of the models when using Step-Back Prompting."
+  ],
+  "score": 3,
+  "confidence": 4
+}

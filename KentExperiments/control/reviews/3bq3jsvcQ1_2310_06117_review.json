@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not sufficiently clarify the limitations of Step-Back Prompting in scenarios where abstraction may not be beneficial.",
+    "The paper lacks a detailed comparison of Step-Back Prompting against other recent prompting techniques beyond Chain-of-Thought and Take-a-Deep-Breath.",
+    "The empirical results do not include a comprehensive analysis of the statistical significance of the observed performance improvements."
+  ],
+  "strengths": [
+    "The introduction of Step-Back Prompting is a novel approach that effectively leverages abstraction to enhance reasoning in LLMs.",
+    "The paper provides robust empirical evidence demonstrating significant performance improvements across multiple challenging reasoning tasks.",
+    "The clarity of the methodology and the structured presentation of results facilitate understanding and reproducibility."
+  ],
+  "score": 7
+}

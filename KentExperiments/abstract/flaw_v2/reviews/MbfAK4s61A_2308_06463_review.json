@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract inaccurately describes the contributions of the paper, focusing on CRISPR instead of the proposed CipherChat framework.",
+    "The paper does not adequately address the ethical implications of enabling unsafe behaviors through ciphers.",
+    "The experimental setup lacks a comprehensive comparison with existing safety alignment methods, limiting the contextual understanding of CipherChat's effectiveness.",
+    "The claims about the 'secret cipher' are not sufficiently supported by empirical evidence, leading to potential overgeneralization."
+  ],
+  "strengths": [
+    "The paper presents a novel framework, CipherChat, which explores the interaction between LLMs and non-natural languages, contributing to the understanding of LLM vulnerabilities.",
+    "Empirical results demonstrate the effectiveness of CipherChat in bypassing safety alignments, highlighting a significant area of concern in AI safety.",
+    "The introduction of SelfCipher as a method to evoke unsafe responses without explicit ciphers is an innovative approach that adds depth to the research."
+  ],
+  "score": 6
+}

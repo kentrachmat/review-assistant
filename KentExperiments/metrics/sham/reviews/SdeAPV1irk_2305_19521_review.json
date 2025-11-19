@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract could better clarify the specific contributions of the IRS approach compared to existing methods.",
+    "The experimental results section lacks a detailed comparison with other state-of-the-art certification methods, limiting the context for evaluating IRS's performance.",
+    "The paper does not sufficiently address potential limitations or scenarios where IRS may not perform as effectively."
+  ],
+  "strengths": [
+    "The introduction of Incremental Randomized Smoothing (IRS) presents a novel approach to reducing the computational cost of robustness certification for modified neural networks.",
+    "The empirical results demonstrate significant speedups in certification time, providing strong evidence of the method's effectiveness.",
+    "The paper clearly articulates the theoretical foundations of IRS and provides a well-structured algorithmic framework."
+  ],
+  "score": 3,
+  "confidence": 4
+}

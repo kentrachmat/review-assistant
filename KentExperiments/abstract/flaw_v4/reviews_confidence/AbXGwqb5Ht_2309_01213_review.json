@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract could better clarify the significance of the Polyak-Łojasiewicz condition in relation to the main results.",
+    "Numerical experiments lack a comprehensive comparison with existing methods to highlight the advantages of the proposed approach."
+  ],
+  "strengths": [
+    "The paper establishes a rigorous mathematical foundation connecting deep residual networks and neural ODEs.",
+    "The results are supported by both theoretical proofs and numerical experiments, demonstrating the practical implications of the findings.",
+    "The exploration of implicit regularization provides valuable insights into the training dynamics of deep residual networks."
+  ],
+  "score": 3,
+  "confidence": 4
+}

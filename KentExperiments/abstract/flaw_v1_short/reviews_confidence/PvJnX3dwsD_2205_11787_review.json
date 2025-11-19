@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the specific contributions of the proposed MetaTool benchmark and ToolE dataset.",
+    "The claims regarding the performance of LLMs in tool selection are not sufficiently supported by the experimental results presented.",
+    "The novelty of the proposed approach is not adequately distinguished from prior work, particularly in the context of existing benchmarks for tool usage in LLMs."
+  ],
+  "strengths": [
+    "The introduction of the ToolE dataset is a valuable contribution for evaluating tool usage awareness in LLMs.",
+    "The paper provides a systematic approach to analyzing the catapult dynamics in neural networks, which is a relevant and timely topic."
+  ],
+  "score": 2,
+  "confidence": 4
+}

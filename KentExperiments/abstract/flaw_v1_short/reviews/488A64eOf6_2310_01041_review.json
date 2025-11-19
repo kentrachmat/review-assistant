@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the limitations of the proposed method, particularly regarding the generalizability of the results across different language models.",
+    "Claims of improved alignment with human texts need more quantitative support in the abstract; specific metrics and results should be briefly mentioned.",
+    "The relationship between the proposed method and existing decoding techniques is not sufficiently detailed, which may lead to confusion about its novelty."
+  ],
+  "strengths": [
+    "The paper presents a novel framework, Daemon, that effectively addresses the mis-specification issues in language model decoding.",
+    "The theoretical guarantees provided for the optimization problem enhance the credibility of the proposed method.",
+    "Empirical results demonstrate the effectiveness of Daemon across various aspects of text generation, supporting its practical applicability."
+  ],
+  "score": 7
+}

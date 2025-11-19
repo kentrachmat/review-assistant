@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The abstract does not sufficiently highlight the limitations of the proposed IRS method, particularly regarding its performance with varying values of sigma.",
+    "The paper lacks a comprehensive comparison with existing incremental certification methods, which would provide context for the claimed improvements.",
+    "The experimental setup does not include a diverse range of datasets beyond CIFAR-10 and ImageNet, limiting the generalizability of the results."
+  ],
+  "strengths": [
+    "The introduction of the Incremental Randomized Smoothing (IRS) method is a novel contribution that addresses a significant gap in the certification of modified DNNs.",
+    "The empirical results demonstrate substantial speedup in certification time, with up to 4.1x improvement, providing strong evidence of the method's efficiency.",
+    "The paper is well-structured, with clear explanations of the methodology and insights derived from the experiments."
+  ],
+  "score": 7
+}

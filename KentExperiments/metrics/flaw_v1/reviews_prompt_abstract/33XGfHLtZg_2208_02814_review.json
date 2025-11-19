@@ -1,0 +1,12 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the specific contributions of the extensions to distribution shift and adversarial risk control, leading to potential vagueness in understanding the novelty.",
+    "While the paper claims to generalize conformal prediction, it lacks a comprehensive comparison with existing methods in terms of performance metrics, making it difficult to assess the claimed improvements."
+  ],
+  "strengths": [
+    "The proposed conformal risk control framework effectively extends existing conformal prediction methods to a broader range of loss functions, showcasing its versatility.",
+    "The paper provides a solid theoretical foundation for the proposed methods, including clear guarantees on expected risk control, which enhances its rigor."
+  ],
+  "score": 2,
+  "confidence": 4
+}

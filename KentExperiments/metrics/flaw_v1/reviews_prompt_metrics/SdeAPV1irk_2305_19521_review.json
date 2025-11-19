@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The experimental results lack a comprehensive comparison with existing state-of-the-art methods, limiting the contextual understanding of IRS's performance.",
+    "Key theoretical claims about the relationship between $\\zeta_{x}$ and certified radii are not sufficiently supported by empirical evidence, leading to potential gaps in understanding.",
+    "The paper does not adequately address the implications of using different values of $\\sigma$ on the performance of IRS, which could mislead practitioners."
+  ],
+  "strengths": [
+    "The introduction of the Incremental Randomized Smoothing (IRS) framework presents a novel approach to reducing certification costs for modified DNNs.",
+    "The empirical results demonstrate significant speedups in certification time, providing strong evidence of the practical utility of IRS.",
+    "The paper offers a clear and structured presentation of the algorithm and its theoretical foundations, making it accessible to readers."
+  ],
+  "score": 2,
+  "confidence": 4
+}

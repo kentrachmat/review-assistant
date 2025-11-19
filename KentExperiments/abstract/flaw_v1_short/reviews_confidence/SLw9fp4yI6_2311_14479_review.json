@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not clearly articulate the novelty of the model arithmetic approach compared to existing controlled text generation methods.",
+    "Claims regarding the efficiency of the extended speculative sampling lack detailed empirical comparisons with baseline methods.",
+    "The limitations of the proposed method, particularly in terms of potential trade-offs in expressiveness or quality, are not sufficiently acknowledged."
+  ],
+  "strengths": [
+    "The introduction of model arithmetic provides a novel framework for controlled text generation that enhances expressiveness.",
+    "The paper presents a clear methodology for combining multiple models, which is well illustrated with examples.",
+    "The empirical evaluation demonstrates significant improvements in efficiency, with quantifiable reductions in model calls."
+  ],
+  "score": 2,
+  "confidence": 4
+}

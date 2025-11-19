@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract does not accurately represent the paper's contributions, as it discusses safety alignment in LLMs instead of the main focus on deep residual networks and neural ODEs.",
+    "The claims regarding the convergence of residual networks to neural ODEs are not sufficiently supported by empirical results in the abstract.",
+    "Key assumptions, particularly regarding the width of hidden layers and their relationship to the number of data points, are not clearly articulated in the abstract.",
+    "The scope described in the abstract does not align with the detailed contributions presented in the paper, leading to potential confusion about the paper's focus."
+  ],
+  "strengths": [
+    "The paper presents a novel theoretical framework connecting deep residual networks to neural ODEs, which is a significant contribution to the field.",
+    "The use of a Polyak-Łojasiewicz condition to analyze the long-time convergence of gradient flow in residual networks is a rigorous and impactful approach.",
+    "Numerical experiments are included to illustrate the theoretical findings, providing empirical support for the claims made."
+  ],
+  "score": 5
+}

@@ -1,0 +1,13 @@
+{
+  "weaknesses": [
+    "The theoretical guarantees provided for the optimization problem may not generalize well to all types of language models and datasets.",
+    "The empirical evaluation lacks a comprehensive comparison with more recent decoding methods beyond the selected baselines.",
+    "The paper does not adequately address potential computational inefficiencies in large-scale applications of the proposed method."
+  ],
+  "strengths": [
+    "The proposed framework, Daemon, presents a novel approach to decoding that directly optimizes for multiple metrics, addressing key limitations of existing methods.",
+    "The paper provides a rigorous theoretical foundation, including proofs of the optimization guarantees and perplexity improvements.",
+    "Experimental results demonstrate significant improvements in alignment with human texts across various metrics, showcasing the method's effectiveness."
+  ],
+  "score": 7
+}

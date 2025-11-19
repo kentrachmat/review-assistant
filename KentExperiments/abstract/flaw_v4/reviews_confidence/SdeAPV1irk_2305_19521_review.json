@@ -1,0 +1,14 @@
+{
+  "weaknesses": [
+    "The abstract overstates the novelty of IRS by not sufficiently differentiating it from existing incremental verification methods.",
+    "The paper lacks a thorough discussion on the limitations of IRS, particularly regarding its performance on highly modified networks.",
+    "Experimental results do not include comparisons with other state-of-the-art incremental certification methods, limiting the contextual understanding of IRS's performance."
+  ],
+  "strengths": [
+    "The proposed IRS method effectively reduces certification time while maintaining robustness guarantees, demonstrating significant practical benefits.",
+    "The experimental evaluation is comprehensive, covering multiple architectures and approximation techniques, which strengthens the empirical support for the claims.",
+    "The paper provides a clear theoretical foundation for the IRS approach, detailing the insights that lead to its development."
+  ],
+  "score": 2,
+  "confidence": 4
+}
